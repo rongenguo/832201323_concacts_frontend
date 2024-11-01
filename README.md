@@ -17,12 +17,12 @@ This project is a full-stack application built with Spring Boot, Vue.js, and MyS
    ```bash
    git clone https://github.com/rongenguo/832201323_concacts_frontend
    cd backend
-spring.datasource.url=jdbc:mysql://localhost:3306/root
-spring.datasource.username=root
-spring.datasource.password=1234
-mvn spring-boot:run
+- spring.datasource.url=jdbc:mysql://localhost:3306/root
+- spring.datasource.username=root
+- spring.datasource.password=1234
+- mvn spring-boot:run
 
 
-cd ../frontend
-npm install
-npm run serve
+- cd ../frontend
+- npm install
+- npm run serve
